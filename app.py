@@ -1,9 +1,7 @@
 """
-Streamlit prototype for the bachelor project:
-Intelligent Image Processing System for Enhanced Traffic Violation Detection in Oman
-
+Streamlit prototype 
 This app classifies uploaded cropped driver/vehicle-region images into:
-seatbelt, no_seatbelt, phone_usage, no_phone_usage.
+seatbelt, phone_usage.
 
 Run:
 streamlit run app.py
