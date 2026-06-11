@@ -165,17 +165,7 @@ Upload cropped driver/vehicle-region images and the app will classify them into 
 
 ---
 
-## Notes for Chapter 5
-
-Use screenshots of:
-1. Dataset folder structure
-2. Dataset counts
-3. Training command/output
-4. Training graphs from `runs/classify/...`
-5. Web app upload page
-6. Prediction result page
-7. Evaluation metrics CSV/report
-8. Confusion matrix image
+## 
 
 Important limitation:
 This version is a classification prototype. It classifies cropped object/driver-region images. A full roadside system would need an object-detection stage first to crop the relevant region automatically from full traffic images.
