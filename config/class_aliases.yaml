@@ -1,0 +1,31 @@
+# Edit these names if your Roboflow data.yaml uses different class names.
+# The script normalizes spaces/hyphens/case, but aliases improve matching.
+target_classes:
+  seatbelt:
+    - seatbelt
+    - seat_belt
+    - wearing_seatbelt
+    - with_seatbelt
+    - belt
+  no_seatbelt:
+    - no_seatbelt
+    - no-seatbelt
+    - not_wearing_seatbelt
+    - without_seatbelt
+    - no_belt
+  phone_usage:
+    - phone_usage
+    - phone-use
+    - phone
+    - mobile
+    - mobile_phone
+    - using_phone
+    - cellphone
+    - cell_phone
+  no_phone_usage:
+    - no_phone_usage
+    - no-phone
+    - no_phone
+    - not_using_phone
+    - without_phone
+    - no_mobile_phone
